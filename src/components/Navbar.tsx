@@ -4,7 +4,7 @@ import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
 
-const Container = styled.div`
+const StyledNavbar = styled.div`
 	height: 60px;
 	${mobile({ height: '50px' })}
 `;
@@ -68,7 +68,7 @@ const MenuItem = styled.div`
 
 const Navbar: React.FC = () => {
 	return (
-		<Container>
+		<StyledNavbar>
 			<Wrapper>
 				<Left>
 					<Language>EN</Language>
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
 					</MenuItem>
 				</Right>
 			</Wrapper>
-		</Container>
+		</StyledNavbar>
 	);
 };
 
