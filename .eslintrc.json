@@ -1,5 +1,5 @@
 {
-  "parser": "@typescript-eslint/parser",
+	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"ecmaFeatures": {
 			"jsx": true
@@ -13,7 +13,7 @@
 	},
 	"extends": [
 		"eslint:recommended",
-    "plugin:react/recommended",
+		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
@@ -23,7 +23,6 @@
 	"rules": {
 		"no-shadow": 0,
 		"semi": 1,
-		"array-bracket-spacing": [1, "always"],
 		"object-curly-spacing": [1, "always"],
 		"no-unused-vars": [
 			1,
