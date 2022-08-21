@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from './pages/Home';
 
 const App: React.FC = () => {
 	return (
-		<div>
-			<h1>Hello Mom</h1>
-		</div>
+		<>
+			<Home />
+		</>
 	);
 };
 
