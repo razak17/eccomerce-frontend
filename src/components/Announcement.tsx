@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const StyledAnnouncement = styled.div`
@@ -12,7 +11,7 @@ const StyledAnnouncement = styled.div`
   font-weight: 500;
 `;
 
-const Announcement: React.FC = () => {
+const Announcement = () => {
   return <StyledAnnouncement>Super Deal! Free Shipping on Orders Over $49.99</StyledAnnouncement>;
 };
 

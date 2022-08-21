@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	Facebook,
 	Instagram,
@@ -84,7 +83,7 @@ const Payment = styled.img`
 	width: 50%;
 `;
 
-const Footer: React.FC = () => {
+const Footer = () => {
 	return (
 		<StyledFooter>
 			<Left>

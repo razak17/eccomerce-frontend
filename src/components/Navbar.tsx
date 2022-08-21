@@ -1,4 +1,3 @@
-import React from 'react';
 import { Badge } from '@mui/material';
 import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
@@ -66,7 +65,7 @@ const MenuItem = styled.div`
 	${mobile({ fontSize: '12px', marginLeft: '10px' })}
 `;
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
 	return (
 		<StyledNavbar>
 			<Wrapper>
