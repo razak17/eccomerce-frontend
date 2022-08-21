@@ -22,7 +22,6 @@
 		"styled-components": "^5.3.5"
 	},
 	"devDependencies": {
-		"@babel/eslint-parser": "^7.18.9",
 		"@fsouza/prettierd": "^0.21.1",
 		"@types/node": "^18.7.8",
 		"@types/react": "^18.0.17",

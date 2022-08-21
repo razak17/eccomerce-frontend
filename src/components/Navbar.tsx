@@ -1,6 +1,6 @@
 import React from 'react';
 import { Badge } from '@mui/material';
-import { ShoppingCartOutlined } from '@mui/icons-material';
+import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
 
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
 					<Language>EN</Language>
 					<SearchContainer>
 						<Input placeholder='Search' />
-						{/* <Search style={{ color: 'gray', fontSize: 16 }} /> */}
+						<Search style={{ color: 'gray', fontSize: 16 }} />
 					</SearchContainer>
 				</Left>
 				<Center>
