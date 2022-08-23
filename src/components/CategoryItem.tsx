@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { mobile } from '../responsive';
+import { FC } from '../types';
 
 const Container = styled.div`
 	flex: 1;
@@ -41,7 +42,13 @@ const Button = styled.button`
 	font-weight: 600;
 `;
 
-const CategoryItem = (item: { id?: number; img: string; title: string }) => {
+interface CategoryItemProps {
+	id?: number;
+	img: string;
+	title: string;
+}
+
+const CategoryItem: FC<CategoryItemProps> = (item) => {
 	return (
 		<Container>
 			<Image src={item.img} />

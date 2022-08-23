@@ -4,6 +4,7 @@ import {
 	ShoppingCartOutlined
 } from '@mui/icons-material';
 import styled from 'styled-components';
+import { FC } from '../types';
 
 const Info = styled.div`
 	opacity: 0;
@@ -66,7 +67,7 @@ const Icon = styled.div`
 	}
 `;
 
-const Product = (item: { id: number; img: string }) => {
+const Product: FC<{ id: number; img: string }> = (item) => {
 	return (
 		<Container>
 			<Circle />
