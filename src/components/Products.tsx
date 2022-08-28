@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { popularProducts } from '../data';
-import Product from './Product';
+import ProductItem from './ProductItem';
 
 const Container = styled.div`
 	padding: 20px;
@@ -10,13 +10,13 @@ const Container = styled.div`
 `;
 
 const Products = () => {
-	return (
-		<Container>
-			{popularProducts.map((item) => (
-				<Product {...item} key={item.id} />
-			))}
-		</Container>
-	);
+  return (
+    <Container>
+      {popularProducts.map((item) => (
+        <ProductItem id={item.id} img={item.img} key={item.id} />
+      ))}
+    </Container>
+  );
 };
 
 export default Products;
